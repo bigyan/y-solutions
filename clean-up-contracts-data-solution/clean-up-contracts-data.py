@@ -28,7 +28,6 @@ for row in reader_contracts:
         for i in reader_awards:
             if i[0] == row[0]:
                 contractawarded=1
-                #reset iterable to top???
                 break
         ifile_awards.seek(0)    # reset the csv iterator
         
